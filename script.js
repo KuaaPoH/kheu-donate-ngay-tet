@@ -6,7 +6,7 @@ const yesButton = document.querySelector(".btn--yes");
 const noButton = document.querySelector(".btn--no");
 const catImg = document.querySelector(".cat-img");
 
-const MAX_IMAGES = 5;
+const MAX_IMAGES = 10;
 
 let play = true;
 let noCount = 0;
@@ -48,6 +48,12 @@ function generateMessage(noCount) {
     "M tính không lì xì t thật à:(",
     "Ôi thật tổn thương làm sao",
     "I'm gonna cry...",
+    "có đii :<",
+    "tan biến dần",
+    "éc",
+    "buồn",
+    ":(",
+    
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
